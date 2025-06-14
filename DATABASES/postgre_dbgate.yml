@@ -1,0 +1,44 @@
+version: "3.1"
+services:
+  postgres:
+    image: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: gengsu07
+      POSTGRES_PASSWORD: Gengsu!sh3r3
+      POSTGRES_DB: ppmpkm
+
+  dbgate:
+    image: dbgate/dbgate
+    restart: always
+    ports:
+      - 7777:3000
+    volumes:
+      - dbgate-data:/root/.dbgate
+    environment:
+      CONNECTIONS: con1,con2
+      LOGINS: jaktim
+      LOGIN_PASSWORD_oc: S4nd1321
+      TOKEN_LIFETIME: 30m
+
+      LABEL_con1: MySql
+      SERVER_con1: 10.20.254.218
+      USER_con1: 810202558
+      PASSWORD_con1: KilauJaktim02558
+      PASSWORD_MODE_con1: askPassword
+      PORT_con1: 3306
+      ENGINE_con1: mysql@dbgate-plugin-mysql
+
+      LABEL_con2: Postgres
+      SERVER_con2: postgres
+      USER_con2: gengsu07
+      PASSWORD_con2: Gengsu!sh3r3
+      PASSWORD_MODE_con2: askPassword
+      PORT_con2: 5432
+      ENGINE_con2: postgres@dbgate-plugin-postgres
+
+volumes:
+  dbgate-data:
+    driver: local

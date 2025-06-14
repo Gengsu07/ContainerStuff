@@ -1,0 +1,34 @@
+version: "3"
+services:
+  dbgate:
+    image: dbgate/dbgate
+    restart: always
+    ports:
+      - 8000:3000
+    volumes:
+      - dbgate-data:/root/.dbgate
+    environment:
+      CONNECTIONS: con1,con2
+      LOGINS: jaktim
+      LOGIN_PASSWORD_oc: S4nd1321
+      TOKEN_LIFETIME: 30m
+
+      LABEL_con1: MySql
+      SERVER_con1: 10.20.254.218
+      USER_con1: oc
+      PASSWORD_con1: kwl@110
+      PASSWORD_MODE_con1: askPassword
+      PORT_con1: 3306
+      ENGINE_con1: mysql@dbgate-plugin-mysql
+
+      LABEL_con2: Postgres
+      SERVER_con2: 10.20.254.228
+      USER_con2: oc
+      PASSWORD_con2: kwl@110
+      PASSWORD_MODE_con2: askPassword
+      PORT_con2: 5432
+      ENGINE_con2: postgres@dbgate-plugin-postgres
+
+volumes:
+  dbgate-data:
+    driver: local
