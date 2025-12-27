@@ -1,0 +1,684 @@
+{
+    "expenses": [
+        {
+            "id": "781ebcde-ca91-438d-9977-26d4b003fb59",
+            "recurringID": "",
+            "name": "Gas",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -20000,
+            "currency": "idr",
+            "date": "2025-12-24T03:27:17Z"
+        },
+        {
+            "id": "d1ac27f2-a9e2-4276-88db-159f368319d9",
+            "recurringID": "",
+            "name": "Ayam sayap mentah",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -25000,
+            "currency": "idr",
+            "date": "2025-12-24T03:27:53Z"
+        },
+        {
+            "id": "82d26d6d-1a15-4d20-a3d2-e3c2ff551cdd",
+            "recurringID": "",
+            "name": "Bakso",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -25000,
+            "currency": "idr",
+            "date": "2025-12-25T05:50:59Z"
+        },
+        {
+            "id": "25ff0d66-5a77-4ff2-b7b5-2d5bf55b9ce9",
+            "recurringID": "",
+            "name": "Sabun kime",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -29245,
+            "currency": "idr",
+            "date": "2025-12-11T12:55:53Z"
+        },
+        {
+            "id": "17c9d58e-10c6-47fd-ac6c-f76448291bc0",
+            "recurringID": "",
+            "name": "Vit D el",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -77800,
+            "currency": "idr",
+            "date": "2025-12-11T12:56:06Z"
+        },
+        {
+            "id": "d464634d-2a33-474a-ae85-4bf4c67b7e91",
+            "recurringID": "",
+            "name": "Concealer mama",
+            "tags": [],
+            "category": "Perawatan Kecantikan",
+            "amount": -60890,
+            "currency": "idr",
+            "date": "2025-12-11T12:56:17Z"
+        },
+        {
+            "id": "51a80568-5ebf-4123-980d-b07ad1cc0bbb",
+            "recurringID": "",
+            "name": "Liptint mama",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -53899,
+            "currency": "idr",
+            "date": "2025-12-11T12:55:41Z"
+        },
+        {
+            "id": "1cffa5de-d1a5-4ec6-b72a-ab460f64e30b",
+            "recurringID": "",
+            "name": "Sabun cair ayah pulang n acne lotion mama",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -24840,
+            "currency": "idr",
+            "date": "2025-12-11T12:55:27Z"
+        },
+        {
+            "id": "fd980acf-4711-434e-a064-61d2f18007ff",
+            "recurringID": "",
+            "name": "Pempers elel",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -49800,
+            "currency": "idr",
+            "date": "2025-12-11T12:54:59Z"
+        },
+        {
+            "id": "b929bbdd-64ed-4813-b518-00f90f2df689",
+            "recurringID": "",
+            "name": "Vit kalsium el n acne patch",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -60230,
+            "currency": "idr",
+            "date": "2025-12-11T12:54:33Z"
+        },
+        {
+            "id": "7ca4b103-1a6b-4416-b93d-13b0a27e9ba2",
+            "recurringID": "",
+            "name": "Parfum setrika",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -49098,
+            "currency": "idr",
+            "date": "2025-12-11T12:54:10Z"
+        },
+        {
+            "id": "ed9246a0-4c43-48b6-af95-6c889a9d35f0",
+            "recurringID": "",
+            "name": "Sabun n lotion elel",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -48412,
+            "currency": "idr",
+            "date": "2025-12-11T12:53:37Z"
+        },
+        {
+            "id": "3ddc1948-9339-47b9-aa59-5494373350aa",
+            "recurringID": "",
+            "name": "Lotek",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -21000,
+            "currency": "idr",
+            "date": "2025-12-11T06:01:22Z"
+        },
+        {
+            "id": "bdc20f56-74df-4318-88be-57d8210f5d49",
+            "recurringID": "",
+            "name": "Tambahan bensin",
+            "tags": [],
+            "category": "Transportas",
+            "amount": -6000,
+            "currency": "idr",
+            "date": "2025-12-11T05:58:34Z"
+        },
+        {
+            "id": "54ce15c0-0b77-4151-aa43-24ca76ccb58e",
+            "recurringID": "",
+            "name": "Ayam giling el",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -25000,
+            "currency": "idr",
+            "date": "2025-12-11T05:59:36Z"
+        },
+        {
+            "id": "43113dbb-8825-4113-9af9-f5a66ee6ca23",
+            "recurringID": "",
+            "name": "Semangka brokoli wortel",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -25000,
+            "currency": "idr",
+            "date": "2025-12-11T06:00:49Z"
+        },
+        {
+            "id": "d1704cd2-d81b-4882-a388-4f8430d2b467",
+            "recurringID": "",
+            "name": "Donat 2 onde onde telur puyuh",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -16000,
+            "currency": "idr",
+            "date": "2025-12-11T06:02:03Z"
+        },
+        {
+            "id": "c5bb45c2-9ec2-4e26-ad82-432ab16a04ef",
+            "recurringID": "",
+            "name": "Cicil kacamata desember",
+            "tags": [],
+            "category": "Tagihan",
+            "amount": -102500,
+            "currency": "idr",
+            "date": "2025-12-11T06:02:35Z"
+        },
+        {
+            "id": "ed6505ba-2b86-40c1-b427-fbacffdc9ef0",
+            "recurringID": "",
+            "name": "Les renang les stimulasi n ngaji sebulan",
+            "tags": [],
+            "category": "Tagihan",
+            "amount": -500000,
+            "currency": "idr",
+            "date": "2025-12-11T06:03:09Z"
+        },
+        {
+            "id": "29d08ce2-354d-4767-9669-c89c43efdaab",
+            "recurringID": "",
+            "name": "Matcha cireng elel n zhara",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -41000,
+            "currency": "idr",
+            "date": "2025-12-12T06:04:03Z"
+        },
+        {
+            "id": "125314ca-1eec-4d0b-b0f4-7836bab34e90",
+            "recurringID": "",
+            "name": "Ikan kembung n teri nasi mentah",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -43000,
+            "currency": "idr",
+            "date": "2025-12-13T06:04:25Z"
+        },
+        {
+            "id": "b651e8f6-a059-4777-b045-d80d8bf5f127",
+            "recurringID": "",
+            "name": "Tambahan beli galon aqua",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -5000,
+            "currency": "idr",
+            "date": "2025-12-13T06:05:17Z"
+        },
+        {
+            "id": "7b2156bc-95be-49bc-a90e-94ca8bd17076",
+            "recurringID": "",
+            "name": "Jenang",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -10000,
+            "currency": "idr",
+            "date": "2025-12-13T06:12:24Z"
+        },
+        {
+            "id": "bec7240c-c354-4f44-a5f6-e165c14f704e",
+            "recurringID": "",
+            "name": "Galon aqua",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -13500,
+            "currency": "idr",
+            "date": "2025-12-13T06:12:48Z"
+        },
+        {
+            "id": "181e3a3b-062b-4354-b6e7-93defb619aa9",
+            "recurringID": "",
+            "name": "Pisang aroma dan dawet",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -30000,
+            "currency": "idr",
+            "date": "2025-12-13T06:13:11Z"
+        },
+        {
+            "id": "98bb674f-6331-4516-853a-7f10c56b17ad",
+            "recurringID": "",
+            "name": "Bubur ayam",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -20000,
+            "currency": "idr",
+            "date": "2025-12-14T06:15:01Z"
+        },
+        {
+            "id": "7c8377f6-15b3-46ea-a6b7-26f5de946cd5",
+            "recurringID": "",
+            "name": "Lipstik mama warna lain",
+            "tags": [],
+            "category": "Perawatan Kecantikan",
+            "amount": -58000,
+            "currency": "idr",
+            "date": "2025-12-15T12:53:01Z"
+        },
+        {
+            "id": "1712ea89-96e6-4714-a6b7-17212ccdd3e2",
+            "recurringID": "",
+            "name": "Brokoli pakcoy brownis potongan legendar",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -27000,
+            "currency": "idr",
+            "date": "2025-12-15T06:16:28Z"
+        },
+        {
+            "id": "cb17826d-8c56-4c3a-add7-764342fc2988",
+            "recurringID": "",
+            "name": "Matcha",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -4000,
+            "currency": "idr",
+            "date": "2025-12-15T06:16:47Z"
+        },
+        {
+            "id": "dca058af-0c54-47f5-9677-d4903d21bf27",
+            "recurringID": "",
+            "name": "Soklin",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -5500,
+            "currency": "idr",
+            "date": "2025-12-15T12:52:25Z"
+        },
+        {
+            "id": "781b1b31-8d55-4968-9890-8364f34728ca",
+            "recurringID": "",
+            "name": "Sayap ayam mentah el",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -20000,
+            "currency": "idr",
+            "date": "2025-12-15T06:17:23Z"
+        },
+        {
+            "id": "bf9779af-89d0-4133-85d1-d4775e44e4c1",
+            "recurringID": "",
+            "name": "Olive el zhara n mama",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -48000,
+            "currency": "idr",
+            "date": "2025-12-15T06:17:50Z"
+        },
+        {
+            "id": "af6f3c70-b2e9-49e3-bb73-42fa2b020937",
+            "recurringID": "",
+            "name": "Playground n kaos kaki n jajan",
+            "tags": [],
+            "category": "Jalan-jalan",
+            "amount": -43000,
+            "currency": "idr",
+            "date": "2025-12-15T06:18:34Z"
+        },
+        {
+            "id": "e8b9fae5-9bc0-4ca1-83ec-5e77538dff8b",
+            "recurringID": "",
+            "name": "Lele ayam burung puyuh pecel lele",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -50000,
+            "currency": "idr",
+            "date": "2025-12-16T06:19:12Z"
+        },
+        {
+            "id": "d0eca4fe-d847-47c0-a6fe-3d688a4974b4",
+            "recurringID": "",
+            "name": "Buku stimulasi el",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -26800,
+            "currency": "idr",
+            "date": "2025-12-17T12:51:41Z"
+        },
+        {
+            "id": "006427c6-8831-47fd-af75-7990044d4594",
+            "recurringID": "",
+            "name": "Telur stnh kilo, brokoli daun bwg wortel",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -30500,
+            "currency": "idr",
+            "date": "2025-12-17T06:20:17Z"
+        },
+        {
+            "id": "a49e49d8-8701-49db-82f5-0ecd05782faf",
+            "recurringID": "",
+            "name": "Martabak manis",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -19000,
+            "currency": "idr",
+            "date": "2025-12-17T06:20:43Z"
+        },
+        {
+            "id": "fb800965-671e-474e-a8cd-f742caa94e02",
+            "recurringID": "",
+            "name": "Susu el 3, coklat n mie",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -26500,
+            "currency": "idr",
+            "date": "2025-12-17T06:21:09Z"
+        },
+        {
+            "id": "26a36407-bb59-4f76-b70c-5bc93e4e027d",
+            "recurringID": "",
+            "name": "Ayam giling el mentah",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -25000,
+            "currency": "idr",
+            "date": "2025-12-17T06:21:33Z"
+        },
+        {
+            "id": "1386746f-f4b4-40f8-a36b-3ece3aebad59",
+            "recurringID": "",
+            "name": "Jus n cilok",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -30000,
+            "currency": "idr",
+            "date": "2025-12-18T06:23:33Z"
+        },
+        {
+            "id": "40403719-90af-42f9-a60a-0b27cb29c413",
+            "recurringID": "",
+            "name": "Jajan el n zhara",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -29000,
+            "currency": "idr",
+            "date": "2025-12-19T06:23:22Z"
+        },
+        {
+            "id": "d4e6ba2a-f9aa-4707-8def-947f0264f5dd",
+            "recurringID": "",
+            "name": "Bensin",
+            "tags": [],
+            "category": "Transportas",
+            "amount": -20000,
+            "currency": "idr",
+            "date": "2025-12-20T06:23:53Z"
+        },
+        {
+            "id": "bbfd1610-b877-4de1-8cc3-13080736a9d1",
+            "recurringID": "",
+            "name": "Gergaji n spon make up",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -41000,
+            "currency": "idr",
+            "date": "2025-12-20T12:51:02Z"
+        },
+        {
+            "id": "d1e2efaa-7816-4f2f-91f5-fb8fc182616d",
+            "recurringID": "",
+            "name": "Martabak manis",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -19000,
+            "currency": "idr",
+            "date": "2025-12-20T06:24:38Z"
+        },
+        {
+            "id": "3b35e143-b8a0-455a-b223-7edb5c4d2715",
+            "recurringID": "",
+            "name": "Mie ayam eng",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -15000,
+            "currency": "idr",
+            "date": "2025-12-20T06:25:00Z"
+        },
+        {
+            "id": "0820ff5e-d7a4-4cf4-b6b2-4dfae158a228",
+            "recurringID": "",
+            "name": "Kartu tepok el",
+            "tags": [],
+            "category": "Mainan",
+            "amount": -4000,
+            "currency": "idr",
+            "date": "2025-12-20T06:25:22Z"
+        },
+        {
+            "id": "82e25ea2-25de-426b-ae30-82611ba6be47",
+            "recurringID": "",
+            "name": "Yakult cemilan el",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -17000,
+            "currency": "idr",
+            "date": "2025-12-21T06:25:57Z"
+        },
+        {
+            "id": "8214da8f-8a5a-4567-be11-a4e1b85ce2ef",
+            "recurringID": "",
+            "name": "Geprek",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -20000,
+            "currency": "idr",
+            "date": "2025-12-21T06:26:20Z"
+        },
+        {
+            "id": "5c2461a1-7594-4324-88cc-953fab0ad600",
+            "recurringID": "",
+            "name": "Brokoli kcg pjg apel el",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -18000,
+            "currency": "idr",
+            "date": "2025-12-21T06:26:46Z"
+        },
+        {
+            "id": "268beb0f-bf5e-4c2e-881a-f5d5703e1a7f",
+            "recurringID": "",
+            "name": "Aqua galon",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -20000,
+            "currency": "idr",
+            "date": "2025-12-22T06:27:04Z"
+        },
+        {
+            "id": "5569af56-4a3a-46ba-94b2-455a01fa3133",
+            "recurringID": "",
+            "name": "Es buah",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -21000,
+            "currency": "idr",
+            "date": "2025-12-22T06:27:30Z"
+        },
+        {
+            "id": "73039223-1cdf-4be0-9cd3-5221b2eef4f7",
+            "recurringID": "",
+            "name": "Kartu tepok el lg",
+            "tags": [],
+            "category": "Mainan",
+            "amount": -3000,
+            "currency": "idr",
+            "date": "2025-12-22T06:27:57Z"
+        },
+        {
+            "id": "7fc2c08f-aa31-4683-bde4-231d79a79288",
+            "recurringID": "",
+            "name": "Lotek",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -21000,
+            "currency": "idr",
+            "date": "2025-12-22T06:28:27Z"
+        },
+        {
+            "id": "d7e252ae-efef-4177-9d9b-7c15b9e75960",
+            "recurringID": "",
+            "name": "Olive",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -33000,
+            "currency": "idr",
+            "date": "2025-12-22T06:28:50Z"
+        },
+        {
+            "id": "f8b78217-05bb-4c8e-abf8-2a098b37e86c",
+            "recurringID": "",
+            "name": "Sangu el ngaji",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -5000,
+            "currency": "idr",
+            "date": "2025-12-22T06:29:18Z"
+        },
+        {
+            "id": "a96ff71c-2dbb-4cb9-9814-df416ed87ed8",
+            "recurringID": "",
+            "name": "Mie ayam n ceker",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -33000,
+            "currency": "idr",
+            "date": "2025-12-23T06:29:35Z"
+        },
+        {
+            "id": "dfe35f01-a40e-409f-b2ae-ba34ba582b15",
+            "recurringID": "",
+            "name": "Sangu ngaji el",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -15000,
+            "currency": "idr",
+            "date": "2025-12-24T06:30:08Z"
+        },
+        {
+            "id": "a2858a39-e7be-46e7-808c-b5d233d47d84",
+            "recurringID": "",
+            "name": "Teh",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -15000,
+            "currency": "idr",
+            "date": "2025-12-24T06:32:15Z"
+        },
+        {
+            "id": "5b164b31-59a3-48e0-b9dd-3e0695cd2b93",
+            "recurringID": "",
+            "name": "Parfum mama",
+            "tags": [],
+            "category": "Perawatan Kecantikan",
+            "amount": -11000,
+            "currency": "idr",
+            "date": "2025-12-24T12:50:18Z"
+        },
+        {
+            "id": "a666475f-c15f-4c8d-9ace-7719eab6e83e",
+            "recurringID": "",
+            "name": "Wifi",
+            "tags": [],
+            "category": "Tagihan",
+            "amount": -100000,
+            "currency": "idr",
+            "date": "2025-12-25T12:44:08Z"
+        },
+        {
+            "id": "9ad8c0e9-43d8-40ef-a13d-07186da65e8d",
+            "recurringID": "",
+            "name": "Botol minum el",
+            "tags": [],
+            "category": "Belanja",
+            "amount": -51000,
+            "currency": "idr",
+            "date": "2025-12-25T12:49:49Z"
+        },
+        {
+            "id": "ac54edc9-cb81-476e-9fb3-3341b535a51a",
+            "recurringID": "",
+            "name": "Listrik",
+            "tags": [],
+            "category": "Tagihan",
+            "amount": -100000,
+            "currency": "idr",
+            "date": "2025-12-25T12:58:04Z"
+        },
+        {
+            "id": "f72778aa-1df7-45f4-874c-298e4425f27a",
+            "recurringID": "",
+            "name": "Ayam mentah",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -40000,
+            "currency": "idr",
+            "date": "2025-12-27T03:05:50Z"
+        },
+        {
+            "id": "43169643-cbff-4a29-ad98-f23bb077f82c",
+            "recurringID": "",
+            "name": "Yakult",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -5500,
+            "currency": "idr",
+            "date": "2025-12-27T03:06:13Z"
+        },
+        {
+            "id": "a2046e92-ef82-4f8b-a7c6-85faf1a9a46e",
+            "recurringID": "",
+            "name": "Soklin",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -5500,
+            "currency": "idr",
+            "date": "2025-12-26T03:07:17Z"
+        },
+        {
+            "id": "6a268a9a-8253-45a5-838a-aff446eb7733",
+            "recurringID": "",
+            "name": "Chocolatos minuman",
+            "tags": [],
+            "category": "Groceries",
+            "amount": -5000,
+            "currency": "idr",
+            "date": "2025-12-26T03:07:42Z"
+        },
+        {
+            "id": "c712c0c7-b9e6-4621-8e56-a90e3a1c2048",
+            "recurringID": "",
+            "name": "Jajan pasar el",
+            "tags": [],
+            "category": "Jajan",
+            "amount": -14000,
+            "currency": "idr",
+            "date": "2025-12-26T03:08:13Z"
+        },
+        {
+            "id": "33c772c7-c305-4654-9ead-f0ce3cddb611",
+            "recurringID": "",
+            "name": "Parkir puskesmas",
+            "tags": [],
+            "category": "Transportas",
+            "amount": -2000,
+            "currency": "idr",
+            "date": "2025-12-26T03:08:38Z"
+        }
+    ]
+}

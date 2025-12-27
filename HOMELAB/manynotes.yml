@@ -1,0 +1,28 @@
+name: notes
+
+services:
+  php:
+    image: brufdev/many-notes:latest
+    restart: unless-stopped
+    container_name: manynotes
+    environment:
+      - APP_URL=https://notes.gengsulab.my.id # address used to access the application
+    volumes:
+      - database:/var/www/html/database/sqlite
+      - logs:/var/www/html/storage/logs
+      - private:/var/www/html/storage/app/private
+      - typesense:/var/www/html/typesense
+    #ports:
+      #- 80:8080
+    networks:  # <-- Fixed: now properly aligned with 4 spaces
+      - universe
+
+volumes:
+  database:
+  logs:
+  private:
+  typesense:
+
+networks:
+  universe:
+    external: true

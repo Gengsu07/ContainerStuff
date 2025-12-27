@@ -1,0 +1,18 @@
+services:
+  focalboard:
+    image: mattermost/focalboard
+    container_name: focalboard
+    restart: unless-stopped
+    # No ports section - only accessible via Nginx :8000
+    volumes:
+      - focalboard-data:/opt/focalboard/data
+    networks:
+      - universe
+
+volumes:
+  focalboard-data:
+    driver: local
+
+networks:
+  universe:
+    external: true

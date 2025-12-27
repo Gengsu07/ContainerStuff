@@ -1,0 +1,28 @@
+services:
+  duplicati:
+    image: lscr.io/linuxserver/duplicati:latest
+    container_name: duplicati
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Etc/UTC
+      - SETTINGS_ENCRYPTION_KEY=s8suis8wiw8s8dzxd
+      - CLI_ARGS= #optional
+      - DUPLICATI__WEBSERVICE_PASSWORD=Gengsu!sh3r3 #optional
+    volumes:
+      - ./config:/config
+      - ./backups:/backups
+      - ./source:/source
+      - /home:/source/home:ro              # User data (read-only)
+      - /etc:/source/etc:ro                # System configs
+      - /var/lib/docker:/source/docker:ro  # Docker data
+      - /opt:/source/opt:ro                # Optional software
+    ports:
+      - 8200:8200
+    restart: unless-stopped
+    networks:
+      - universe
+
+networks:
+  universe:
+    external: true

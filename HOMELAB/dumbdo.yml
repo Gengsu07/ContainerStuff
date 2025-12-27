@@ -1,0 +1,26 @@
+services:
+  dumbdo:
+    image: dumbwareio/dumbdo:latest
+    container_name: dumbdo
+    restart: unless-stopped
+   # ports:
+    #  - ${DUMBDO_PORT:-3000}:3000
+    volumes:
+      - ./dumbdo:/app/data
+    environment:
+      - DUMBDO_PIN=2341
+      - DUMBDO_SITE_TITLE=GengsuDo
+      # (Optional) Restrict origins - ex: https://subdomain.domain.tld,https://auth.proxy.tld,http://internalip:port' (default is '*')
+      - ALLOWED_ORIGINS=https://do.gengsulab.my.id
+      # - NODE_ENV=development # default production (development allows all origins)
+    #healthcheck:
+    #  test: wget --spider -q  http://127.0.0.1:3000
+    #  start_period: 20s
+    #  interval: 20s
+    #  timeout: 5s
+    #  retries: 3
+    networks:
+      - universe
+networks:
+  universe:
+    external: true

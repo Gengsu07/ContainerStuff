@@ -1,0 +1,15 @@
+services:
+  expenseowl:
+    image: tanq16/expenseowl:main
+    container_name: expenseowl
+    restart: unless-stopped
+    ports:
+      - 5006:8080 # change 5006 to what you want to expose on
+    volumes:
+      - ./expenseowl:/app/data # change dir as needed
+    networks:
+      - universe
+
+networks:
+  universe:
+    external: true

@@ -1,0 +1,13 @@
+*/data/*
+*/volumes/*
+*/letsencrypt/*
+
+# Ignore common Docker runtime files
+*.log
+*.log.*
+*.pid
+*.sock
+
+*.conf
+*/.env/*
+.env

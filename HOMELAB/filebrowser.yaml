@@ -1,0 +1,25 @@
+services:
+  filebrowser:
+    image: filebrowser/filebrowser
+    container_name: filebrowser
+    #ports:
+    #  - 8080:80
+   #  user: "1001:1001"
+    volumes:
+      - filebrowser_config:/config
+      - filebrowser_database:/database
+      - /home/projects:/srv
+    networks:
+      - universe
+
+volumes:
+  filebrowser_config:
+    name: filebrowser_config
+  filebrowser_database:
+    name: filebrowser_database
+  filebrowser_data:
+    name: filebrowser_data
+
+networks:
+  universe:
+    external: true

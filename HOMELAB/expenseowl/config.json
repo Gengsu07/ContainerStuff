@@ -1,0 +1,26 @@
+{
+    "categories": [
+        "Groceries",
+        "Travel",
+        "Rent",
+        "Entertainment",
+        "Healthcare",
+        "Makanan",
+        "Belanja",
+        "Jajan",
+        "Transportas",
+        "Jalan-jalan",
+        "Pakaian",
+        "Mainan",
+        "Tagihan",
+        "Servis",
+        "Perawatan Kecantikan",
+        "Berobat",
+        "Sedekah",
+        "Langganan",
+        "PerKopian"
+    ],
+    "currency": "idr",
+    "startDate": 1,
+    "recurringExpenses": []
+}

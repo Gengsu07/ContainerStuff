@@ -15,11 +15,19 @@ services:
       - BROWSER_WEB_URL=http://karakeep-chrome:9222
       - NEXTAUTH_SECRET=QGeSMVmBylLOO3vMHdU3WbdDU++EGwyP/RvhF00u0ODuXay1
       - MEILI_MASTER_KEY=yE9gXg7MesybplFKuyRR1Qc0LGgk7+a65la/hmf0LlaNB2z1
-      - NEXTAUTH_URL=https://karakeep.gengsudev.my.id
+      - NEXTAUTH_URL=https://karakeep.gengsulab.my.id
       - DATA_DIR=/data
       - CRAWLER_STORE_SCREENSHOT=true
       - CRAWLER_FULL_PAGE_SCREENSHOT=true
       - CRAWLER_ENABLE_ADBLOCKER=true
+      - OPENAI_BASE_URL=https://generativelanguage.googleapis.com/v1beta
+      - OPENAI_API_KEY=YOUR_API_KEY=AIzaSyCeQDfuDMKd8wPk04DozcuIxSY6RccqRZs
+      - INFERENCE_TEXT_MODEL=gemini-2.0-flash
+      - INFERENCE_IMAGE_MODEL=gemini-2.0-flash
+      - INFERENCE_ENABLE_AUTO_TAGGING=true
+      - INFERENCE_ENABLE_AUTO_SUMMARIZATION=true
+    networks:
+      - universe
       # - OP3NA1NK3Y=
 
   karakeep-chrome:
@@ -33,6 +41,9 @@ services:
       - --remote-debugging-address=0.0.0.0
       - --remote-debugging-port=9222
       - --hide-scrollbars
+    networks:
+      - universe
+
   karakeep-meilisearch:
     image: getmeili/meilisearch:v1.13.3
     container_name: karakeep-meilisearch
@@ -42,3 +53,9 @@ services:
       - MEILI_NO_ANALYTICS=true
     volumes:
       - ${PWD}/karakeep/meilisearch:/meili_data
+    networks:
+      - universe
+
+networks:
+  universe:
+    external: true
